@@ -11,8 +11,8 @@ const encrypt = (vNumber, secretKey) => {
     arrEncrypt[i] += secretKey.charCodeAt(i)
     }
   })
-  return arrEncrypt.join('')
+  return arrEncrypt
 }
 
 console.log(encrypt('1HGCM82633A004352', 'trybe'))
-// 165186192165178565054515165484852515350
+[165,186,192,165,178,56,50,54,51,51,65,48,48,52,51,53,50]
