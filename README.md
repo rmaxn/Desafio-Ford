@@ -10,5 +10,7 @@ Ao final do processo o app retorna o VIN Number encriptado.
 
 O usuário que possui a secret key consegue fazer também o processo reverso sendo que ao invés de somar seria subtraído.
 
+As funções foram criadas em arquivos diferentes, um que faz a criptografia (Encrypt.js) e outro que realiza a descriptografia (Decrpyt.js)
+
 # Linguagem utilizada:
 Javascript.
